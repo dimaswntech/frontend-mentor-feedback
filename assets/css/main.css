@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+  .font-overpass{
+    font-family: 'Overpass';
+  }
+}
+
+.background{
+  background-color: #141519
+}
+
+.backgroundKotak{
+  background-color: hsl(213, 19%, 18%)
+}
+
+.backgroundStar{
+  background-color: hsl(0, 0%, 100%, 0.1)
+}
